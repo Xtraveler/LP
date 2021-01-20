@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  {% include head.html %}
+</head>
+
+<body>
+  <div class="container-fluid">
+    {% include header.html %}
+    <div class="row">
+      <p class="p-title center">{{ page.title }}</p>
+
+    </div>
+    <div class="row">
+      {{ content }}
+    </div>
+    <div class="row">
+      {{% include footer.html %}}
+    </div>
+  </div>
+
+</body>
+
+</html>
