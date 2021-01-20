@@ -15,35 +15,8 @@
 
 <body onMouseDown="return false;" onSelectStart="return false">
   <div class="container-fluid sec-0">
-    <!-- ヘッダー -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="">
-      <!-- ロゴ -->
-      <a class="navbar-brand" href="#">
-        <img src="media/logo.png" class="logo-margin" height="30px">
-      </a>
-      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- メニュー -->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <a href="" class="btn">事前登録</a>
-      </div>
-    </nav>
-    <!-- ヘッダーここまで -->
+{% include hrader.html %}
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
         <div class="row margin">
