@@ -1,0 +1,16 @@
+
+title: Xtraveler
+email: stopover@stopover.jp
+
+baseurl: / # the subpath of your site, e.g. /blog
+url: https://xtraveler.jp # the base hostname & protocol for your site, e.g. http://example.com
+
+
+
+
+# Build settings
+theme: xtraveler
+plugins:
+  - jekyll-feed
+
+permalink: /:month/:day/:minute
