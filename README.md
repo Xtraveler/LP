@@ -1,4 +1,4 @@
-<img src="https://xtraveler.github.io/LP/media/logo.png"></img>
+<img src="https://lp.xtraveler.jp/media/logo.png"></img>
 # Xtraveler LPページ
 ## 使用環境
 `BootStrap
